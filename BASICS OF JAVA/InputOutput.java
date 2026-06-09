@@ -42,31 +42,51 @@
 
 //     public class InputOutput{
 
+// //     public static void main(String[] args) {
+
+// //         System.out.print("ANKUSH\n");
+
+// //         System.out.print("ANKUSH");
+
+// //     }
+
+// // } 
+
+// // 4-- TAKING USER INPUT WITH SCANNER 
+
+//         import java.util.Scanner;
+
+// public class InputOutput {
 //     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-//         System.out.print("ANKUSH\n");
+//         int x = sc.nextInt();
 
-//         System.out.print("ANKUSH");
+//         System.out.println("Value of x: " + x);
 
+//         sc.close();
 //     }
-
 // } 
 
-// 4-- TAKING USER INPUT WITH SCANNER 
+// TAKING THE INPUT = 10 
+// OUTPUT = Value of x: 10 
 
-        import java.util.Scanner;
-
-public class InputOutput {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int x = sc.nextInt();
-
-        System.out.println("Value of x: " + x);
+// 5- TAKING MULTIPLE INPUTS 
+        import java.util.Scanner; 
+        public class InputOutput{
+public static void main (String[]args){
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+      int y = sc.nextInt();
+        System.out.println("Value of x --  " + x + " and y -- " + y );
 
         sc.close();
-    }
-} 
 
-// TAKING THE INPUT = 10 
-// OUTPUT = Value of x: 10
+                }
+        } 
+
+
+        // input - x = 10 and y = 20 
+        // output -- Value of x --  10 and y -- 20 
+
+        
