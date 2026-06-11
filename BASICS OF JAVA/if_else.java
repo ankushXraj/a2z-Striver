@@ -17,7 +17,7 @@
 //         System.out.println("you are not an adult");
 
 //     }
-//          scanner.close();
+        //  scanner.close();
     
 //    }}
 // INPUT - 18 
@@ -54,4 +54,6 @@ public class if_else {
        } 
 
     }
-}
+} 
+
+// output = grade a 
