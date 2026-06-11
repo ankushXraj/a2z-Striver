@@ -25,4 +25,7 @@ public class if_else {
         // Close the Scanner object to avoid resource leaks
         scanner.close();
     }
-}
+} 
+
+// INPUT - 18 
+// OUTPUT - You are an adult.
