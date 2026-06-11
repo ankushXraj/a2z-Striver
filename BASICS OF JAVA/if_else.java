@@ -5,27 +5,20 @@
 import java.util.Scanner;
 
 public class if_else {
-    public static void main(String[] args) {
-        // Create a Scanner object to read input from the console
-        Scanner scanner = new Scanner(System.in);
+   public static void main(String[] args) {
+    Scanner scanner = new Scanner (System.in);
+    System.out.println("Enter your age");
+    int age = scanner.nextInt(); 
+    if (age >=18){
 
-        // Ask the user for their age
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt();  // Read age from user
+        System.out.println("you are an adult");
+    
+    } else { 
+        System.out.println("you are not an adult");
 
-        // Check if the user is 18 or older
-        if (age >= 18) {  
-            // If age is 18 or more, they are considered an adult
-            System.out.println("You are an adult.");
-        } else {
-            // Otherwise, they are not an adult
-            System.out.println("You are not an adult.");
-        }
-
-        // Close the Scanner object to avoid resource leaks
-        scanner.close();
     }
-} 
-
+         scanner.close();
+    
+   }}
 // INPUT - 18 
 // OUTPUT - You are an adult.
