@@ -56,31 +56,59 @@
 // This can include constants and arithmetic operations. 
 
 
+        //  public class Main {
+         
+        //     public static void main(String[] args) {
+        //         final int x = 20;
+        //         final int y = 0;
+        //         switch (x+y)
+        //         {
+        //             case 25 :
+        //                 System.out.println("result is 25");
+        //                 break ;
+
+
+        //                 case 20:
+        //                     System.out.println("result is 20"); 
+        //                     break;
+
+        //                      default :
+        //                      System.out.println("invalid option");
+                            
+        //         } 
+        //     }
+        //  }
+
+
+
+
+
          public class Main {
          
             public static void main(String[] args) {
-                final int x = 20;
-                final int y = 0;
-                switch (x+y)
-                {
-                    case 25 :
-                        System.out.println("result is 25");
-                        break ;
-
-
-                        case 20:
-                            System.out.println("result is 20"); 
+                 char grade = 'a'; 
+                 
+                 switch (grade){
+                    case 'v' :
+                        System.out.println("excellent");
+                        break;
+                         case 'b' :
+                            System.out.println("very good");
                             break;
 
-                             default :
-                             System.out.println("invalid option");
-                            
-                } 
+                            case 'c':
+                                System.out.println("average");
+                                break;
+                            case 'd' :
+                                System.out.println("fail");
+                                break;
+                                default :
+                                System.out.println("type again");
+                        
+                 }
             }
-         }
+         } 
 
-
-
-
+         // also used for character values 
 
          
